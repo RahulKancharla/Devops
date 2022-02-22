@@ -6,7 +6,7 @@
 public class RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
-       int i;
+       int i=0;
        for(int j=0;j<nums.length;j++)
        {
            //if the array[i] equal to val skip the index 
